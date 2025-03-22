@@ -19,9 +19,9 @@ export default function Career() {
       <section className="py-16 px-6 text-center max-w-4xl mx-auto">
         <h2 className="text-3xl font-semibold">Grow Your Career With Us</h2>
         <p className="text-lg text-gray-600 mt-4">
-          At Sky Scraper Skill, we believe in nurturing talent and providing
-          opportunities to innovate and grow. If you're passionate about digital
-          marketing and software development, we would love to have you on
+          At Sky Scraper Skill&#44; we believe in nurturing talent and providing
+          opportunities to innovate and grow. If you&rsquo;re passionate about digital
+          marketing and software development&#44; we would love to have you on
           board.
         </p>
       </section>

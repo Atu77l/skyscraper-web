@@ -160,7 +160,7 @@ export default function Home() {
 
       {/* Call to Action */}
       <section className="py-16 bg-blue-600 text-white text-center px-6">
-        <h3 className="text-3xl font-bold">Let's Build Something Amazing Together</h3>
+        <h3 className="text-3xl font-bold">Let&rsquo;s Build Something Amazing Together</h3>
         <p className="text-lg mt-4">Get in touch to start your digital transformation journey.</p>
         <button className="mt-6 bg-white text-blue-600 px-6 py-3 rounded-md text-lg transition-transform duration-300 hover:scale-105">
           Contact Us

@@ -20,7 +20,7 @@ export default function Services() {
             <FaSearch className="text-blue-600 text-4xl mb-4" />
             <h3 className="text-xl font-semibold">SEO Optimization</h3>
             <p className="text-gray-600 mt-2">
-              Enhance your website’s visibility and attract more organic traffic with data-driven SEO strategies, keyword optimization, and content improvements.
+              Enhance your website&rsquo;s visibility and attract more organic traffic with data-driven SEO strategies, keyword optimization, and content improvements.
             </p>
           </div>
 
@@ -75,7 +75,7 @@ export default function Services() {
       <section className="py-16 bg-white text-center px-6">
         <h3 className="text-3xl font-bold text-blue-700">Why Choose NexusWave?</h3>
         <p className="text-lg mt-4 text-gray-600">
-          We don’t just provide services; we create **strategies that drive real results** for businesses of all sizes.
+          We don&rsquo;t just provide services; we create **strategies that drive real results** for businesses of all sizes.
         </p>
 
         <div className="mt-12 grid md:grid-cols-2 gap-8">
@@ -111,9 +111,9 @@ export default function Services() {
 
       {/* Call to Action */}
       <section className="py-16 bg-blue-600 text-white text-center px-6">
-        <h3 className="text-3xl font-bold">🚀 Let's Grow Your Business Together</h3>
+        <h3 className="text-3xl font-bold">🚀 Let&rsquo;s Grow Your Business Together</h3>
         <p className="text-lg mt-4">
-          Take the first step toward digital success with **NexusWave’s expert solutions.**
+          Take the first step toward digital success with **SkyScraperSkill&rsquo;s expert solutions.**
         </p>
         <button className="mt-6 bg-white text-blue-600 px-6 py-3 rounded-md text-lg font-semibold transition-transform hover:scale-105">
           Get Started

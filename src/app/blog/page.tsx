@@ -2,6 +2,10 @@
 import { useState } from "react";
 import Navbar from "@/component/Navbar";
 import { FaRegClock, FaUserAlt } from "react-icons/fa";
+import FutureDigitalMarketing from "@/component/FutureDigitalMarketing";
+import SEOStrategies from "@/component/SeoStrategies";
+import AITransformation from "@/component/AiSoftwareDevelopment";
+import CyberSecurityTrends from "@/component/CyberSecurityTrends";
 
 interface BlogPost {
   id: number;
@@ -86,7 +90,9 @@ export default function Blog() {
               <FaUserAlt className="mr-2" /> Admin | <FaRegClock className="mx-2" />
               {selectedPost.date}
             </div>
-            <p className="text-gray-700 mt-6 leading-relaxed">{selectedPost.content}</p>
+            <p className="text-gray-700 mt-6 leading-relaxed">{selectedPost.id==1 && <FutureDigitalMarketing/>}
+            {selectedPost.id==3&&<SEOStrategies/>}{selectedPost.id==2&&<AITransformation/>}
+            {selectedPost.id==4&&<CyberSecurityTrends/>}{selectedPost.id==5&&<CyberSecurityTrends/>}{selectedPost.id==6&&<CyberSecurityTrends/>}</p>
           </div>
         ) : (
           // Blog Post List
@@ -119,6 +125,8 @@ export default function Blog() {
           </>
         )}
       </main>
+
+      
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white text-center py-6 mt-12">

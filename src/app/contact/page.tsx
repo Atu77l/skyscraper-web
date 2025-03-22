@@ -10,7 +10,7 @@ export default function Contact() {
       {/* Header */}
       <header className="bg-gradient-to-r from-blue-600 to-blue-400 text-white py-10 px-6 text-center shadow-lg rounded-b-xl">
         <h1 className="text-5xl font-extrabold tracking-wide">Get in Touch</h1>
-        <p className="text-xl mt-2 font-light">We’re here to help and answer any questions</p>
+        <p className="text-xl mt-2 font-light">We&rsquo;re here to help and answer any questions</p>
       </header>
 
 
@@ -18,7 +18,7 @@ export default function Contact() {
       <section className="py-16 px-6 max-w-4xl mx-auto bg-white shadow-lg rounded-lg border mt-5">
         <h2 className="text-3xl font-semibold text-center text-blue-600">Get In Touch</h2>
         <p className="text-lg text-gray-600 mt-4 text-center">
-          Have questions or need assistance? Fill out the form below, and we'll get back to you as soon as possible.
+          Have questions or need assistance? Fill out the form below, and we&rsquo;ll get back to you as soon as possible.
         </p>
         <form className="mt-8 grid grid-cols-1 gap-6">
           <input
